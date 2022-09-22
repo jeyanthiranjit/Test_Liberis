@@ -1,0 +1,184 @@
+Ex00 : Google
+
+
+======================================
+
+Ex01 : WiKi Pedia Search 
+	
+1. Open WiKiPedia.org  (Consider it Page1)
+2. Click on English
+3. Write "Selenium" in Search Box
+4. Click on Magnifying Glass
+5. Print the title.
+6. Verify if the Title is "Selenium - Wikipedia".
+
+================================================
+
+
+Ex01A : WiKiPedia_Navigation 
+	
+1. Open WiKiPedia.org  (Consider it Page1)
+2. Click on English    (It moves to Page2)
+3. Write "Selenium" in Search Box
+4. Click on Magnifying Glass (It moves to Page 3)
+
+5a) try to use driver navigation to goback and print the title of the previous page
+
+5b) try to use driver navigation to gofront and print the title of the page
+
+================================================
+
+Ex06  : ATASocialMediaHrefJunit (JUnit and TestNG)
+1. Go to "http://agiletestingalliance.org/"
+2. print hrefs for following social media icons at the footer
+    - LinkedIn 
+	- twitter
+	- youtube
+	- insta
+	- facebook
+	- wa
+	- Telegram
+
+=====================================================
+Ex02B WindowSwitching
+(This Ex is for 5-07-2020)
+
+Note :  You have to print the title of all the windows which are open
+
+1. Go to https://www.ataevents.org/
+
+2. click on first,second,third, fourth  image links 
+2a) CP-SAT (Java) Instructor Led Online Program
+2b) doppa2020 - Post Conference Webinar
+2c) CPSAT Licensed Trainer Program
+2d) CP-DOF
+
+print all the page titles
+
+3. Check if "doppa2020" 
+	Print the Heading of the event
+	"doppa2020 - Post Conference Webinar on Smart and AI Driven Test Automation - A Case Study"
+
+====================================
+
+Ex03 : Exercise on Anna University 
+
+1. Go to http://www.annauniv.edu/department/index.php
+
+2. Hover on Civil Engineering
+3. Click on Institute of ocean management
+4. Print the title
+
+=======================================
+Ex04 : Exercise on Alerts Handling   (TestNG)
+1. Go to "https://the-internet.herokuapp.com/javascript_alerts"
+
+2a. Click on JS Alert and 
+    Click ok button on Alert 
+    Validate Result: "You successfully clicked an alert"
+
+2b. Click for JS Confirm
+	i) click Ok and validate Result
+	ii)click cancel and validate result
+
+2c. Click for JS Prompt and then
+	i) Input your name and click ok to validate result
+	ii) Input your name and click cancel to validate result
+	iii) No Input on JS Prompt and click ok to validate result
+	iv)  No input on JS Prompt and click cancel to validate result
+=======================================
+Ex05 : Helper and Utility functions for screenshots capturing etc
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+Ex07 : IMDB Exercise 
+
+TASK#1
+1. Go To https://www.imdb.com/
+
+2. Search for movie Avengers
+
+3. Click on magnifying glass
+
+4. On new page click on the first link for Avengers
+
+5. On the next page confirm
+	Stars: Chris Evans
+	Director: Joss Whedon
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+Ex07 : IMDB Exercise 
+
+TASK#1
+1. Go To https://www.imdb.com/
+
+2. Search for movie Raazi
+
+3. Click on magnifying glass
+
+4. On new page click on the first link for Raazi
+
+5. On the next page confirm
+	Director: Meghna Gulzar
+	Stars: Vicky Kaushal
+
+Task#2  Repeat the same for 
+	102 Not Out
+	Director as  "Umesh Shukla"
+	Star Name is "Rishi Kapoor"
+
+
+Task#3  Repeat the same for 
+	Baazigar
+	Director as  "Mastan"
+	Star Name is "Shah Rukh Khan"
+
+Task#4 Repeat the same for 
+	Uri
+	Director: Aditya Dhar
+	Stars: Vicky Kaushal
+
+=========================================
+
+
+Ex09 : Sample Drop Down Exercise
+1. copy dropdown.html file in resources/data folder
+2. select CP-AAT as the selected option
+3. Print all the options available
+4. change the selection to CP-MLDS
+
+======================================
+
+
+
+Ex11 : JQuery example - UIFrame
+1. go to "https://jqueryui.com/autocomplete/"
+2. Type J in the textbox next to Tags
+3. It will autocomplete list.
+4. Print all the list items
+5. select Java
+
+==========================================
+Ex14 : Calculator Exercise - 
+
+Go to http://ata123456789123456789.appspot.com/
+
+1. enter a number in first field
+2. enter a number in the second field
+3. select multiplication option
+4. click on calculation button
+5. read the result value
+6. convert the result value to integer
+7. do an assert on the result - whether it is correct or not.
+8. use assert with int parameters on actual v/s expected integer value
+
+=====================================
+
+
+
+

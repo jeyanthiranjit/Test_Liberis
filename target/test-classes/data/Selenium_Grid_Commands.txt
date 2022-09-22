@@ -1,0 +1,13 @@
+2. Create foder c:\griddemo
+- copy standalone jar
+- copy chromedriver.exe
+
+Run the Hub Command
+java -jar selenium-server-standalone-3.141.5.jar -role hub
+it will start the hub
+
+
+In browser go to 
+http://192.168.225.74:4444/
+
+
